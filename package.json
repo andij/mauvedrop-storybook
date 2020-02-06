@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chroma": "CHROMA_APP_CODE=ofbk687ucs chroma"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@storybook/html": "^5.3.12",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "storybook-chroma": "^3.5.1"
   }
 }
